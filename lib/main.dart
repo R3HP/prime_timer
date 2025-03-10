@@ -67,11 +67,11 @@ class _HomePageState extends State<HomePage> {
           ),
         );
         if (event.error != null) {
-          messenger.showSnackBar(SnackBar(content: Text(event.error!)));
+          messenger.showSnackBar(SnackBar(content: Text(event.error!,style: TextStyle(color: Colors.white),),backgroundColor: Colors.orange,));
         }
       },
       onError: (error) {
-        messenger.showSnackBar(SnackBar(content: Text(error.toString())));
+        messenger.showSnackBar(SnackBar(content: Text(error.toString(),style: TextStyle(color: Colors.white),),backgroundColor: Colors.red,));
       },
     );
   }
