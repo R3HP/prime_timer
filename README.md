@@ -1,6 +1,18 @@
 # prime_timer
 
-A new Flutter project.
+## Which patterns/libraries did you use and why?
+✅ Patterns
+
+    Clean Architecture → Separation of concerns between data, domain, and presentation layers.
+    Repository Pattern → Abstracts data sources, making it easy to switch between API and local storage.
+    BLoC (Business Logic Component) Pattern → Ensures predictable state management and event-driven updates.
+    Error Handling with Fallbacks → Allows the app to function even if persistence fails.
+
+✅ Libraries
+
+    Flutter BLoC → State management (flutter_bloc package).
+    SharedPreferences → Local storage for tracking last mined number.
+    Dart async & Streams → Used for real-time updates and periodic 
 
 ## Getting Started
 
